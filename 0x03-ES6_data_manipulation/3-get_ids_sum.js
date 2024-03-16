@@ -10,7 +10,7 @@
 export default function getStudentIdsSum(students) {
   if (students instanceof Array) {
     return students.reduce(
-      (previousStudent, currentStudent) => previousStudent.id || previousStudent + currentStudent.id,
+      (previousStudent, curentStudent) => previousStudent.id || previousStudent + curentStudent.id,
       0,
     );
   }
